@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/00ce1dcb6f.js" crossorigin="anonymous"></script>
+    <title>Pseudo Classes</title>
+    <style>
+        input {
+            width: 270px;
+            -webkit-transition: width .35s ease-in-out;    
+           transition: width .35s ease-in-out;
+           border: none; 
+           height: 40px;
+        }
+        
+        .icon_input {
+            background-color: white;
+           width: fit-content;
+           padding: 20px;
+           margin: auto;
+           border-radius: 18px;
+           margin-top: 300px;  
+           
+        }
+        .icon_input:hover {
+            background-color: rgb(189, 206, 238);
+        }
+        input:focus {
+            background-color: rgb(230, 193, 180);
+            width: 350px;
+           
+        }
+        .dropdown {
+            display: none;
+            cursor: pointer;
+        }
+        .firstdiv:focus-within .dropdown {
+            display: block;
+        }
+       
+    </style>
+</head>
+<body style="background-color: rgb(32, 31, 31);">
+    <main>
+        <!-- first div -->
+        <div class="firstdiv">
+            <!-- second div -->
+            <div class="icon_input">
+               <i class="fa fa-search"></i>
+               <input type="text" id="gsearch" placeholder="Search google or type a URL">
+               <i class="fa fa-microphone"></i>
+               <!-- third div -->
+               <div class="dropdown">
+                   <p>how to use focus to show dropdown</p>
+                   <p>how to use focus in css</p>
+                   <p>the.sand.2015.1080p.bluray.x264-ru subtitles</p>
+                   <p>download the sand full movie</p>
+                   <p>walmart pictures</p>
+               </div>
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </main>
+</body>
+</html>

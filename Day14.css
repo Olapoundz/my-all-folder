@@ -1,0 +1,55 @@
+/* Large and general */
+body{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-bottom: 4px double blue;
+   background-color: rgb(165, 42, 42, 0.3);
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+ul li{
+    list-style-type: none;
+    cursor: pointer;
+}
+button{
+    padding: 10px 15px;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+}
+button:first-child{
+    border: 2px solid firebrick;
+    transition: all 3s linear;
+}
+button:last-child{
+    border: 0;
+    background-color: firebrick;
+}
+button:first-child:hover{
+    background-color: #fff;
+    color: firebrick;
+    transform: scale(0.9);
+}
+div.hamburger{
+    display: none;
+}
+@media (max-width:500px){
+    button:first-child{
+    display: none;
+    }
+    div.navlist{
+        display: none;
+    }
+    div.hamburger{
+        display: block;
+    }
+}

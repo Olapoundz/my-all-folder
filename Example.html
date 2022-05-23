@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/00ce1dcb6f.js" crossorigin="anonymous"></script>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+        img{
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-weight: 700;
+        }
+        .main-container{
+            height: 570px;
+            width: 400px;
+            background-color: black;
+            margin: auto;
+            border-bottom-left-radius: 12px;
+            border-bottom-right-radius: 12px;
+        }
+        .upper-section{
+            background-color: teal;
+            display: flex;
+            justify-content: space-between;
+            height: 50px;
+            padding: 15px 20px;
+        }
+        .upper-section h1, i{
+            color: white;
+        }
+        .upper-section-2{
+            background-color: teal;
+            height: 70px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .message-profile-image{
+            display: flex;
+            padding: 15px 25px;
+        }
+        .message-profile-image p{
+            color: grey;
+            font-size: 13px;
+        }
+        .message-profile-image h1{
+            font-size: 15px;
+            margin-bottom: 10px;
+        }
+       
+        .chat-message{
+            padding-left: 10px;
+        }
+        .date-chat{
+            color: grey;
+            font-size: 13px;
+            margin-left: 40px;
+            padding-left: 80px;
+        }
+
+        .date-status{
+            color: grey;
+            font-size: 13px;
+            margin-left: 10px;
+        }
+
+        .date-calls{
+            color: grey;
+            font-size: 13px;
+            margin-left: 40px;
+            padding-left: 60px;
+        }
+
+        .chat-dropdown{
+            /* display: none; */
+            position: absolute;
+            top: 150px;
+            margin-left: -90px;
+            margin-top: 15px;
+        }
+
+        .status-dropdown{
+            display: none;
+            position: absolute;
+            top: 150px;
+            width: 393px;
+            margin-left: -198.5px;
+            margin-top: 15px;
+            background-color: black;
+            height: 402px;
+            border-bottom-right-radius: 12px;
+            border-bottom-left-radius: 12px;
+        }
+
+        .call-text{
+            color: grey;
+            font-size: 13px;
+        }
+
+        .calls-dropdown{
+            display: none;
+            position: absolute;
+            top: 150px;
+            width: 395px;
+            margin-left: -317px;
+            margin-top: 15px;
+            background-color: black;
+            height: 402px;
+            border-bottom-right-radius: 12px;
+            border-bottom-left-radius: 12px;
+        }
+        .chats:focus .chat-dropdown{
+            display: block;
+        }
+
+        .status:focus .status-dropdown{
+            display: block;
+        }
+
+        .calls:focus .calls-dropdown{
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <main class="main-container">
+        <section class="upper-section">
+            <h1>WhatsApp</h1>
+            <div class="upper-icon">
+            <i style="margin-right: 20px;" class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+        </section>
+
+        <section class="upper-section-2">
+            <i class="fa-solid fa-camera"></i>
+            <a class="chats" href="#">CHATS
+                <!-- section for chats -->
+                <aside class="chat-dropdown">
+                    <div class="message-profile-image">
+                        <img src="../../Pictures/Ronaldo_GettyImages-1376435293.jpg" alt="">
+                        <div class="chat-message">
+                            <h1>Mi Vida <span class="date-chat">3/9/22</span></h1>
+                            <p>I have my phone with me now</p>
+        
+                        </div>
+        
+                    </div>
+                    <div class="message-profile-image">
+                        <img src="../../Pictures/Ronaldo_GettyImages-1376435293.jpg" alt="">
+                        <div class="chat-message">
+                            <h1>Anisah <span class="date-chat">3/9/22</span></h1>
+                            <p>Thank you</p>
+        
+                        </div>
+        
+                    </div>
+                    <div class="message-profile-image">
+                        <img src="../../Pictures/Ronaldo_GettyImages-1376435293.jpg" alt="">
+                        <div class="chat-message">
+                            <h1>Zainab <span class="date-chat">3/9/22</span></h1>
+                            <p>Nice to hear from you again</p>
+        
+                        </div>
+        
+                    </div>
+                    <div class="message-profile-image">
+                        <img src="../../Pictures/Ronaldo_GettyImages-1376435293.jpg" alt="">
+                        <div class="chat-message">
+                            <h1>Washington <span style="margin-left: -5px;" class="date-chat">3/9/22</span></h1>
+                            <p>Nice to hear from you again</p>
+        
+                        </div>
+        
+                    </div>
+                    <div class="message-profile-image">
+                        <img src="../../Pictures/Ronaldo_GettyImages-1376435293.jpg" alt="">
+                        <div class="chat-message">
+                            <h1>Aishat <span class="date-chat">3/9/22</span></h1>
+                            <p>Nice to hear from you again</p>
+        
+                        </div>
+        
+                    </div>
+        
+                </aside>
+            </a>
+            <!-- section for status -->
+            <a class="status" href="#">STATUS
+
+                <aside class="status-dropdown">
+                    <div class="message-profile-image">
+                        <img src="../../Pictures/Ronaldo_GettyImages-1376435293.jpg" alt="">
+                        <div class="chat-message">
+                            <h1>Mi Vida <br><span class="date-status">3m ago</span></h1>
+                           
+                        </div>
+        
+                    </div>
+                    <div class="message-profile-image">
+                        <img src="../../Pictures/Ronaldo_GettyImages-1376435293.jpg" alt="">
+                        <div class="chat-message">
+                            <h1>Zainab <br><span class="date-status">19m ago</span></h1>
+                          
+                        </div>
+        
+                    </div>
+                    <div class="message-profile-image">
+                        <img src="../../Pictures/Ronaldo_GettyImages-1376435293.jpg" alt="">
+                        <div class="chat-message">
+                            <h1>Washington <br><span class="date-status">48m ago</span></h1>
+                            
+                        </div>
+        
+                    </div>
+                    <div class="message-profile-image">
+                        <img src="../../Pictures/Ronaldo_GettyImages-1376435293.jpg" alt="">
+                        <div class="chat-message">
+                            <h1>Delight <br><span class="date-status">56m ago</span></h1>
+                            
+                        </div>
+        
+                    </div>
+                    <div class="message-profile-image">
+                        <img src="../../Pictures/Ronaldo_GettyImages-1376435293.jpg" alt="">
+                        <div class="chat-message">
+                            <h1>Bella <br><span class="date-status">1h ago</span></h1>
+                                 
+                        </div>
+        
+                    </div>
+        
+                </aside>
+            </a>
+            <!-- section for calls -->
+            <a class="calls" href="#">CALLS
+
+                <aside class="calls-dropdown">
+                    <div class="message-profile-image">
+                        <img src="../../Pictures/Ronaldo_GettyImages-1376435293.jpg" alt="">
+                        <div class="chat-message">
+                            <h1>Mi Vida <span class="date-calls">10:25 PM</span></h1>
+                            <i class="fa fa-phone"></i>
+                            <span class="call-text">Missed</span>
+        
+                        </div>
+        
+                    </div>
+                    <div class="message-profile-image">
+                        <img src="../../Pictures/Ronaldo_GettyImages-1376435293.jpg" alt="">
+                        <div class="chat-message">
+                            <h1>Mi Vida <span class="date-calls">8:23 AM</span></h1>
+                            <i class="fa fa-video"></i>
+                            <span class="call-text">Outgoing</span>
+        
+                        </div>
+        
+                    </div>
+                    <div class="message-profile-image">
+                        <img src="../../Pictures/Ronaldo_GettyImages-1376435293.jpg" alt="">
+                        <div class="chat-message">
+                            <h1>Mi Vida <span class="date-calls">Yesterday</span></h1>
+                            <i class="fa fa-video"></i>
+                            <span class="call-text">Incoming</span>
+        
+                        </div>
+        
+                    </div>
+                    <div class="message-profile-image">
+                        <img src="../../Pictures/Ronaldo_GettyImages-1376435293.jpg" alt="">
+                        <div class="chat-message">
+                            <h1>Washington <span style="padding-right: 10px; margin-left: -5px;" class="date-calls">3/16/22</span></h1>
+                            <i class="fa fa-video"></i>
+                            <span class="call-text">Missed</span>
+        
+                        </div>
+        
+                    </div>
+                    <div class="message-profile-image">
+                        <img src="../../Pictures/Ronaldo_GettyImages-1376435293.jpg" alt="">
+                        <div class="chat-message">
+                            <h1>Delight <span class="date-calls">3/16/22</span></h1>
+                            <i class="fa fa-phone"></i>
+                            <span class="call-text">Incoming</span>
+        
+                        </div>
+        
+                    </div>
+        
+                </aside>
+            </a>
+        </section>
+    </main>
+</body>
+</html>

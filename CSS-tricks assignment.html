@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://kit.fontawesome.com/00ce1dcb6f.js" crossorigin="anonymous"></script> -->
+    <title>CSS-trciks</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+        }
+        section{
+            margin-top: 50px;
+            margin-left: 20px;
+           background-color: #282828;
+            display: grid;
+            grid-template-columns: 500px 500px 500px 500px 500px 500px 500px 500px 500px 500px;
+            width: 1000px;
+            height: 450px;
+            /* border: 1px solid grey; */
+            /* box-sizing: border-box; */
+            overflow-x: scroll;
+            /* scroll-behavior: auto; */
+            
+        }
+        .first-div{
+            width: 330px;
+            height: 350px;
+            /* padding-right: 135px; */
+            /* position: absolute; */
+            /* float: left; */
+            border-radius: 12px;
+            background: linear-gradient(rgb(17, 75, 17), rgb(255, 166, 0));
+            margin-left: 100px;
+            margin-top: 40px;
+        }
+        .first-div:hover{
+            transform: rotate(1deg);
+            
+        }
+        .second-div{
+            width: 330px;
+            height: 350px;
+            margin-left: -200px;
+            /* position: absolute; */
+            left: 50px
+            /* float: right; */;
+            border-radius: 12px;
+            /* padding-right: 135px; */
+            background: linear-gradient(rgb(7, 255, 243), rgb(255, 230, 0));
+            margin-top: 40px
+            
+        }
+        .second-div:hover{
+            transform: rotate(1deg);
+        }
+        .third-div{
+            width: 330px;
+            height: 350px;
+            margin-left: -510px;
+            /* padding-right: 135px; */
+            /* float: right; */
+            border-radius: 12px;
+            background: linear-gradient(rgb(19, 201, 19), rgb(255, 166, 0));
+            /* margin-right: 5px; */
+            margin-top: 40px;
+        }
+        .third-div:hover{
+            transform: rotate(1deg);
+        }
+        .fourth-div{
+            width: 330px;
+            height: 350px;
+            margin-left: -820px;
+            /* padding-right: 135px; */
+            /* float: right; */
+            border-radius: 12px;
+            background: linear-gradient(rgb(104, 19, 201), rgb(208, 255, 0));
+            margin-top: 40px;
+        }
+        .fourth-div:hover{
+            transform: rotate(1deg);
+        }
+        .fifth-div{
+            width: 330px;
+            height: 350px;
+            margin-left: -1130px;
+            /* padding-right: 135px; */
+            /* float: right; */
+            border-radius: 12px;
+            background: linear-gradient(rgb(19, 201, 19), rgb(255, 166, 0));
+            margin-top: 40px;
+        }
+        .fifth-div:hover{
+            transform: rotate(1deg);
+        }
+        .sixth-div{
+            width: 330px;
+            height: 350px;
+            /* padding-right: 135px; */
+            border-radius: 12px;
+            background: linear-gradient(rgb(14, 59, 14), rgb(160, 122, 53));
+            margin-left: -1438px;
+            margin-top: 40px;
+            /* float: right; */
+        }
+        .sixth-div:hover{
+            transform: rotate(1deg);
+        }
+        .seventh-div{
+            width: 330px;
+            height: 350px;
+            /* padding-right: 135px; */
+            border-radius: 12px;
+            background: linear-gradient(rgb(201, 122, 19), rgb(0, 255, 234));
+            margin-left: -1742px;
+            margin-top: 40px;
+            /* float: right; */
+        }
+        .seventh-div:hover{
+            transform: rotate(1deg);
+        }
+        .eighth-div{
+            width: 330px;
+            height: 350px;
+            /* padding-right: 135px; */
+            border-radius: 12px;
+            background: linear-gradient(rgb(165, 19, 201), rgb(0, 247, 255));
+            margin-left: -2050px;
+            margin-top: 40px;
+            /* float: right; */
+        }
+        .eighth-div:hover{
+            transform: rotate(1deg);
+        }
+        .nineth-div{
+            width: 330px;
+            height: 350px;
+            /* padding-right: 135px; */
+            border-radius: 12px;
+            background: linear-gradient(rgb(201, 19, 19), rgb(248, 245, 239));
+            margin-left: -2360px;
+            margin-top: 40px;
+            /* float: right; */
+        }
+        .nineth-div:hover{
+            transform: rotate(1deg);
+        }
+        .tenth-div{
+            width: 330px;
+            height: 350px;
+            /* padding-right: 135px; */
+            border-radius: 12px;
+            background: linear-gradient(rgb(32, 100, 32), rgb(241, 216, 169));
+            margin-left: -2660px;
+            margin-top: 40px;
+        }
+        .tenth-div:hover{
+            transform: rotate(1deg);
+        }
+        .first{
+            font-size: 15px;
+            margin-left: 30px;
+            color: white;
+            margin-top: 30px;
+        }
+        .first-h1{
+            font-size: 20px;
+            font-weight: 800px;
+            margin-left: 30px; 
+            color: white; 
+            position: static;
+            /* z-index: 1; */
+        }
+        .color{
+            color: grey;
+            font-size: 12px;
+        }
+        .first-a{
+            color: rgb(255, 166, 0);
+            margin-left: 30px;
+            font-size: 10px;
+            font-weight: 900;
+        }
+        .second{
+            font-size: 15px;
+            margin-left: 30px;
+            color: white;
+            margin-top: 30px;
+        }
+        .second-h1{
+            font-size: 20px;
+            font-weight: 800px;
+            margin-left: 30px; 
+            color: white; 
+            position: static;
+        }
+        .second-a{
+            color: rgba(240, 157, 2, 0.856);
+            margin-left: 30px;
+            font-size: 10px;
+            font-weight: 900;
+        }
+        .third{
+            font-size: 15px;
+            margin-left: 30px;
+            color: white;
+            margin-top: 30px;
+        }
+        .third-h1{
+            font-size: 20px;
+            font-weight: 800px;
+            margin-left: 30px; 
+            color: white; 
+            position: static;
+        }
+        .third-a{
+            color: rgba(240, 157, 2, 0.856);
+            margin-left: 30px;
+            font-size: 10px;
+            font-weight: 900;
+        }
+        .fourth{
+            font-size: 15px;
+            margin-left: 30px;
+            color: white;
+            margin-top: 30px;
+        }
+        .fourth-h1{
+            font-size: 20px;
+            font-weight: 800px;
+            margin-left: 30px; 
+            color: white; 
+            position: static;
+        }
+        .fourth-a{
+            color: rgba(240, 157, 2, 0.856);
+            margin-left: 30px;
+            font-size: 10px;
+            font-weight: 900;
+        }
+        .fifth{
+            font-size: 15px;
+            margin-left: 30px;
+            color: white;
+            margin-top: 30px;
+        }
+        .fifth-h1{
+            font-size: 20px;
+            font-weight: 800px;
+            margin-left: 30px; 
+            color: white; 
+            position: static;
+        }
+        .fifth-a{
+            color: rgba(240, 157, 2, 0.856);
+            margin-left: 30px;
+            font-size: 10px;
+            font-weight: 900;
+        }
+        .sixth{
+            font-size: 15px;
+            margin-left: 30px;
+            color: white;
+            margin-top: 30px;
+        }
+        .sixth-h1{
+            font-size: 20px;
+            font-weight: 800px;
+            margin-left: 30px; 
+            color: white; 
+            position: static;
+        }
+        .sixth-a{
+            color: rgba(240, 157, 2, 0.856);
+            margin-left: 30px;
+            font-size: 10px;
+            font-weight: 900;
+        }
+        .seventh{
+            font-size: 15px;
+            margin-left: 30px;
+            color: white;
+            margin-top: 30px;
+        }
+        .seventh-h1{
+            font-size: 20px;
+            font-weight: 800px;
+            margin-left: 30px; 
+            color: white; 
+            position: static;
+        }
+        .seventh-a{
+            color: rgba(240, 157, 2, 0.856);
+            margin-left: 30px;
+            font-size: 10px;
+            font-weight: 900;
+        }
+        .eighth{
+            font-size: 15px;
+            margin-left: 30px;
+            color: white;
+            margin-top: 30px;
+        }
+        .eighth-h1{
+            font-size: 20px;
+            font-weight: 800px;
+            margin-left: 30px; 
+            color: white; 
+            position: static;
+        }
+        .eighth-a{
+            color: rgba(240, 157, 2, 0.856);
+            margin-left: 30px;
+            font-size: 10px;
+            font-weight: 900;
+        }
+        .nineth{
+            font-size: 15px;
+            margin-left: 30px;
+            color: white;
+            margin-top: 30px;
+        }
+        .nineth-h1{
+            font-size: 20px;
+            font-weight: 800px;
+            margin-left: 30px; 
+            color: white; 
+            position: static;
+        }
+        .nineth-a{
+            color: rgba(240, 157, 2, 0.856);
+            margin-left: 30px;
+            font-size: 10px;
+            font-weight: 900;
+        }
+        .tenth{
+            font-size: 15px;
+            margin-left: 30px;
+            color: white;
+            margin-top: 30px;
+        }
+        .tenth-h1{
+            font-size: 20px;
+            font-weight: 800px;
+            margin-left: 30px; 
+            color: white; 
+            position: static;
+        }
+        .tenth-a{
+            color: rgba(240, 157, 2, 0.856);
+            margin-left: 30px;
+            font-size: 10px;
+            font-weight: 900;
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+        <div class="first-div">
+            <h1 class="first">Article <span class="color"> on Feb 24, 2022 </span></h1>
+            <h1 class="first-h1">Explain the First 10 Lines <br> of Twitter’s Source Code <br> to Me</h1>
+            <p><a class="first-a" href=""> VIEW SOURCE </a></p>
+        </div>
+        <div class="second-div">
+            <h1 class="second">Article <span class="color"> on Feb 22, 2022</span></h1>
+            <h1 class="second-h1">A Complete Guide to CSS <br> Cascade Layers</h1>
+            <p><a class="second-a" href="">CASCADE LAYERS</a></p>
+        </div>
+        <div class="third-div">
+            <h1 class="third">Article <span class="color"> on Feb 18, 2022</span></h1>
+            <h1 class="third-h1">Comparing Node <br> JavaScript to JavaScript <br> in the Browser</h1>
+            <p><a class="third-a" href="">JAVASCRIPT NODE</a></p>
+        </div>
+        <div class="fourth-div">
+            <h1 class="fourth">Article <span class="color"> on Feb 14, 2022</span></h1>
+            <h1 class="fourth-h1">Replace JavaScript <br> Dialogs With the New <br> HTML Dialog Element</h1>
+            <p><a class="fourth-a" href="">DIALOG MODAL</a></p>
+        </div>
+        <div class="fifth-div">
+            <h1 class="fifth">Article <span class="color"> on Feb 11, 2022</span></h1>
+            <h1 class="fifth-h1">A Whistle-Stop Tour of 4 <br> New CSS Color Features</h1>
+            <p><a class="fifth-a" href="">COLOR COLOR() DISPLAY-P3 HSL <br><span class="fifth-a"> HWB LAB LCH RGBA</span></a></p>
+        </div>
+        <div class="sixth-div">
+            <h1 class="sixth">Article <span class="color"> on Feb 18, 2022</span></h1>
+            <h1 class="sixth-h1">A Deep Introduction to <br> WordPress Block Themes</h1>
+            <p><a class="sixth-a" href="">WORDPRESS WORDPRESS BLOCKS <br><span class="sixth-a"> WORDPRESS THEMES</span></a></p>
+        </div>
+        <div class="seventh-div">
+            <h1 class="seventh">Article <span class="color"> on Feb 7, 2022</span></h1>
+            <h1 class="seventh-h1">CSS Scroll Snap Slide <br> Deck That Supports Live <br> Coding</h1>
+            <p><a class="seventh-a" href="">PUBLIC SPEAKING SCROLL-SNAP</a></p>
+        </div>
+        <div class="eighth-div">
+            <h1 class="eighth">Article <span class="color"> on Feb 3, 2022</span></h1>
+            <h1 class="eighth-h1">The Making of Atomic <br> CSS: An Interview With <br> Thierry Koblentz</h1>
+            <p><a class="eighth-a" href="">ATOMIC CSS INTERVIEW</a></p>
+        </div>
+        <div class="nineth-div">
+            <h1 class="nineth">Article <span class="color"> on Feb 14, 2022</span></h1>
+            <h1 class="nineth-h1">Getting Started With the <br> File System Access API</h1>
+            <p><a class="nineth-a" href="">FILE SYSTEM ACCESS API</a></p>
+        </div>
+        <div class="tenth-div">
+            <h1 class="tenth">Article <span class="color"> on Feb 1, 2022</span></h1>
+            <h1 class="tenth-h1">The Relevance of <br> TypeScript in 2022</h1>
+            <p><a class="tenth-a" href="">TYPESCRIPT</a></p>
+        </div>
+    </section>
+    
+</body>
+</html>

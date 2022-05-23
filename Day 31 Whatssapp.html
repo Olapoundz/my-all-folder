@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/00ce1dcb6f.js" crossorigin="anonymous"></script>
+    <title>Whatsapp</title>
+    <style>
+        .container {
+            background-color: black;
+            border-radius: 12px;
+            width: 28%;
+            height: 500px;
+            margin: auto;
+            margin-top: 20px;
+            color: white;
+        }
+        .container .span2_chats:active{
+            text-decoration: underline;
+        }
+        .container .span2_chats:focus-within .dropdown_chats {
+            display: inherit;
+        }
+        .span_icon {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding: 20px;
+
+        }
+        .icon_span {
+            margin-left: 20px;
+            /* padding-left: 20px; */
+            cursor: pointer;
+        }
+        .just_backcolor {
+            background-color: rgb(0, 153, 120);
+            border-top-right-radius: 12px;
+            border-top-left-radius: 12px;
+        }
+        .span3_status {
+            padding-left: 45px;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        .span4_calls {
+            float: right; 
+            padding-right: 30px;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        .span2_chats {
+            padding-left: 10px;
+            font-size: 15px;
+            font-weight: bold;
+            position: relative;
+        }
+        
+        .span2_chats:focus {
+            color: white;
+            text-decoration: underline;
+        }
+        /* .span2_chats:focus-within .dropdown_chats {
+            display: block;
+        } */
+        .span1_camera {
+            padding-right: 20px;
+        }
+        .span5_whatsapp {
+            font-weight: bold;
+        }
+        .span_search {
+            padding-left: 280px;
+            cursor: pointer;
+        }
+        .span_dots {
+            float: right;
+            cursor: pointer;
+        }
+        .img1 {
+            width: 83%;
+            border-radius: 20px;
+            margin-top: 10px; 
+            
+        }
+        .img2 {
+            width: 83%;
+            border-radius: 20px;
+            margin-top: 10px;
+        }
+        .img3 {
+            width: 83%;
+            border-radius: 20px;
+            margin-top: 10px;
+        }
+        .img4 {
+            width: 83%;
+            border-radius: 20px;
+            margin-top: 7px;
+            
+        }
+        .img5 {
+            width: 83%;
+            border-radius: 20px;
+            margin-top: 7px;
+        }
+        .img6 {
+            width: 83%;
+            border-radius: 20px;
+            margin-top: 7px;
+        }
+        .img7 {
+            width: 83%;
+            border-radius: 20px;
+            margin-top: 7px;
+        }
+        .img8 {
+            width: 83%;
+            border-radius: 20px;
+            margin-top: 7px;
+        }
+        
+        .div_img {
+            width: 11%;
+            height: 380px;
+            /* background-color: white; */
+            display: block;
+            margin: 2px;
+            margin-left: 10px;
+        }
+        .container2 {
+            display: flex;
+        }
+        .dropdown_chats {
+            display: none;
+            position: absolute;
+        }
+        .div_content {
+            /* background-color: yellow; */
+            margin: 2px;
+            width: 84%;
+            height: 380px
+            
+        }
+        .span_time {
+            float: right;
+            font-size: 10px;
+            color: rgb(248, 248, 248);
+            padding-right: 10px;
+        }
+        .div_name {
+            font-size: 14px;
+            font-weight: bold;
+            margin-top: 8px;
+        }
+        .div_text {
+            font-size: 12px;
+            color: rgb(209, 209, 209);
+            margin-bottom: 5px;
+        }
+        .div_border {
+            border-bottom: 1px solid rgb(100, 100, 100);
+        }
+        
+        
+        
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <!-- mother div -->
+        <div class="container">
+                <!-- stepmother div -->
+            <div class="just_backcolor">
+                    <!-- first div -->
+                <div class="span_icon">
+                    <span class="span5_whatsapp">WhatsApp</span>
+                   <span class="span_search"><i class="fa fa-search"></i></span>
+                   <span class="span_dots"><i class="fa fa-ellipsis-vertical"></i></span>
+                </div>
+                <!-- second div -->
+                <div class="icon_span">
+                   <span class="span1_camera"><i class="fa fa-camera"></i></span>
+                    <span class="span2_chats">CHATS</span>
+                    <span class="span3_status">STATUS</span>
+                    <span class="span4_calls">CALLS</span>
+                </div>
+                <br>
+            </div>
+                <!-- third div -->
+            <div class="container2">
+                <div class="dropdown_chats">
+                    <div class="div_img">
+                       <div><img class="img1" src="../../Pictures/Ronaldo_GettyImages-1376435293.jpg" alt=""></div>
+                       <div><img class="img2" src="../../Pictures/Haaland.jpg" alt=""></div>
+                       <div><img class="img3" src="../../Pictures/Havertz (2).jpg" alt=""></div>
+                       <div><img class="img4" src="../../Pictures/Raul-jimenez_5440269.jpg" alt=""></div>
+                       <div><img class="img5" src="../../Pictures/Messi.jpeg" alt=""></div>
+                       <div><img class="img6" src="../../Pictures/Mohamed-Salah.jpg" alt=""></div>
+                       <div><img class="img7" src="../../Pictures/mbapke (2).jpg" alt=""></div>
+                       <div><img class="img8" src="../../Pictures/images.jpg" alt=""></div>
+                    </div>
+                    <div class="div_content">
+                        <div class="div_border">
+                        <div class="div_name">C. Ronaldo <span class="span_time">9:49 AM</span></div>
+                        <div class="div_text">It will be ready on Thursday!</div>
+                        </div>
+                        <div class="div_border">
+                        <div class="div_name">Haaland <span class="span_time">9:48 AM</span></div>
+                        <div class="div_text">Sounds good</div>
+                        </div>
+                        <div class="div_border">
+                        <div class="div_name">Havertz <span class="span_time">8:15 AM</span></div>
+                        <div class="div_text">Yo wassup!</div>
+                        </div>
+                        <div class="div_border">
+                        <div class="div_name">Raul Jimenez <span class="span_time">Yesterday</span></div>
+                        <div class="div_text">What are you doing tomorrow?</div>
+                        </div>
+                        <div class="div_border">
+                        <div class="div_name">Messi <span class="span_time">Yesterday</span></div>
+                        <div class="div_text">Do You Have What it Takes to Break the Code?</div>
+                        </div>
+                        <div class="div_border">
+                        <div class="div_name">Mo Salah <span class="span_time">Yesterday</span></div>
+                        <div class="div_text">What do you think about the FIFA WC draw?</div>
+                        </div>
+                        <div class="div_border">
+                        <div class="div_name">Mbappe <span class="span_time">31/03/2022</span></div>
+                        <div class="div_text">Be patient.. i will send the money by Friday.</div>
+                        </div>
+                        <div class="div_border">
+                        <div class="div_name">Lewandowski <span class="span_time">31/03/2022</span></div>
+                        <div class="div_text">I really appreciate you Man</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+    </main>
+    
+</body>
+</html>

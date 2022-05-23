@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Overflow</title>
+    <style>
+        .parent{
+            width: 400px;
+            height: 200px;
+            border: 1px solid black;
+            box-sizing: border-box;
+            overflow-x: scroll;
+        }
+        table{
+            width: 700px;
+            
+        }
+        table,th,td{
+            border: 1px solid red;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <table>
+            <thead>
+                <th>S/no</th>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Matric No</th>
+            </thead>
+            <tbody>
+                <td>1</td>
+                <td>Bolaji Jamiu</td>
+                <td>BCJ</td>
+                <td>2031/2365</td>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+/* small and general stle sheet */
+div{
+    /* width: 400px; */
+    width: 100%;
+    height: 400px;
+    background-color: red;
+    margin: 2px;
+}body{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size: 64px;
+}
+div img{
+width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 67px;
+    border-bottom: 1px dotted brown;
+}
+div.navlist ul li{
+    list-style: none;
+}
+div.navlist ul{
+    display: none;
+}
+
+
+
+/* Medium */
+@media (min-width:500px) {
+    div{
+        background-color: aqua;
+    }
+    body{
+        flex-direction: row;
+    }
+}
+
+
+/* Large */
+@media (min-width:991px) {
+    div{
+        background-color: blue;
+    }
+    h1{
+        font-size: 24px;
+    }
+
+    div.navlist{
+        border: 1px solid;
+        width: 400px;
+    }
+    div.navlist ul{
+        display: flex;
+        justify-content: space-around;
+    }
+}
