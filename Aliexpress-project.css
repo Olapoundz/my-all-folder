@@ -1511,9 +1511,196 @@ div.for-fashion2 img{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.my-nav{
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+.text-size{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text-size2{
+    margin-top: 14px;
+    margin-left: 50px;
+}
 
-NGN4.15
-NGN1,531.79-99%
-New User Bonus
-6110 sold4.6
-Free Shipping
+.my-h1{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+    text-align: center;
+}
+.my-p{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #929292;
+}
+p.my-p a{
+    color: #222222;
+    text-decoration: none;
+}
+p.my-p a:hover{
+    color: #ff6600;
+}
+.foot-h1{
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+.foot-div{
+    background-color: transparent;
+    width: 180px;
+    height: 80px;
+    margin-left: 30px;
+    margin-top: 45px;
+}
+.foot-div2{
+    background-color: transparent;
+    width: 180px;
+    height: 100px;
+    margin-left: 350px;
+    margin-top: 45px;
+}
+.foot-div3{
+    background-color: transparent;
+    width: 180px;
+    height: 100px;
+    margin-left: 40px;
+    margin-top: 45px;
+}
+.foot-div4{
+    background-color: transparent;
+    width: 180px;
+    height: 100px;
+    margin-left: 40px;
+    margin-top: 45px;
+}
+.foot-div2 a{
+    color: #929292;
+    text-decoration: none;
+}
+.foot-div3 a{
+    color: #929292;
+    text-decoration: none;
+}
+.foot-div4 a{
+    color: #929292;
+    text-decoration: none;
+}
+.foot-div a{
+    color: #222222;
+    text-decoration: none;
+}
+.foot-div svg{
+    margin: 3px;
+}
+.foot-p{
+    font-size: 12px;
+    line-height: 10px;
+}
+.foot-div5{
+    width: 580px;
+    height: 220px;
+    background-color: transparent;
+    margin-left: -10px;
+    margin-top: 40px;
+}
+.foot-div6{
+    width: 600px;
+    height: 220px;
+    background-color: transparent;
+    margin-left: -80px;
+    margin-top: 40px;
+}
+.foot-h1-5a{
+    font-size: 16px;
+    
+}
+.foot-p-5a{
+    font-size: 14px;
+}
+.foot-h1-5b{
+    font-size: 16px;
+    margin-top: 37px;
+}
+.foot-p-5b{
+    font-size: 14px;
+}
+.foot-h1-6a{
+    font-size: 16px;
+}
+.foot-p-6a{
+    font-size: 14px;
+}
+.foot-h1-6b{
+    font-size: 16px;
+}
+.foot-p-6b{
+    font-size: 14px;
+}
+div.foot-div5 a{
+    text-decoration: none;
+    color: #929292;
+}
+div.foot-div6 a{
+    text-decoration: none;
+    color: #929292;
+}
+div.foot-div6 a:hover{
+    color: #fe9f34;
+}
+div.foot-div5 a:hover{
+    color: #fe9f34;
+}
+
+.for-googlebot{
+    display: flex;
+    width: 130px;
+    height: 30px;
+    background-color: #a4c739;
+    border-radius: 2px;
+}
+.for-applebot{
+    display: flex;
+    width: 113px;
+    height: 30px;
+    background-color: #8c8c8c;
+    margin-left: 15px;
+    border-radius: 2px;
+}
+.for-motherdiv{
+    display: flex;
+    width: 300px;
+    height: 30px;
+    background-color: transparent;
+}
+.for-bot{
+    color: #ffffff;
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 5px;
+    margin-top: 6px;
+}
+div.for-googlebot img{
+    width: 19%;
+    height: 23px;
+    margin-left: 4px;
+    margin-top: 3px;
+}
+div.for-applebot svg{
+    margin-top: 3px;
+    margin-left: 3px;
+    color: #ffffff;
+}
+.foot-span{
+    color: #929292;
+    font-size: 15px;
+    margin-left: 30px;
+}
+.foot-span a{
+    text-decoration: none;
+    color: #929292;
+}
+.for-box:hover{
+    box-shadow: -1px 1px 5px 1px #c3c2c2;
+}
